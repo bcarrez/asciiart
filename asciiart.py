@@ -9,5 +9,6 @@ def prettyPrint(font,text):
                 line += font[c][i]
         print line
 
-text = sys.argv[1]
+del(sys.argv[0])
+text = " ".join(sys.argv)
 prettyPrint(font,text)
