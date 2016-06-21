@@ -1,3 +1,4 @@
+import sys
 from blocks import font
 
 def prettyPrint(font,text):
@@ -8,5 +9,5 @@ def prettyPrint(font,text):
                 line += font[c][i]
         print line
 
-text = raw_input('Enter text:\n')
+text = sys.argv[1]]
 prettyPrint(font,text)
