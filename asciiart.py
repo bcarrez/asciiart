@@ -9,5 +9,5 @@ def prettyPrint(font,text):
                 line += font[c][i]
         print line
 
-text = sys.argv[1]]
+text = sys.argv[1]
 prettyPrint(font,text)
