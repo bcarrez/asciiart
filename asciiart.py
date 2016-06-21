@@ -1,4 +1,4 @@
-from alpha import font
+from blocks import font
 
 def prettyPrint(font,text):
     for i in range(font['height']):
